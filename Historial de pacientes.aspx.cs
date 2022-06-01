@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace proyecto_final_233323
 {
-    public partial class Historial_de_pacientes : System.Web.UI.Page
+    public partial class Historial_de_Pacientes : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
