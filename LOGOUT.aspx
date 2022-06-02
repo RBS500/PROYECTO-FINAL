@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LOGIN.aspx.cs" Inherits="proyecto_final_233323.LOGIN" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LOGOUT.aspx.cs" Inherits="proyecto_final_233323.LOGOUT" %>
 
 <!DOCTYPE html>
 
@@ -11,8 +11,6 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Login ID="Login1" runat="server" Height="355px" OnAuthenticate="Login1_Authenticate" Width="612px">
-        </asp:Login>
     </form>
 </body>
 </html>

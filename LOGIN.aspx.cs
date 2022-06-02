@@ -19,6 +19,7 @@ namespace proyecto_final_233323
         {
             string usuario = Login1.UserName;
             string password = Login1.Password;
+
             if ((usuario == "ABC") && (password == "123"))
             {
                 FormsAuthenticationTicket tkt;
@@ -32,6 +33,7 @@ namespace proyecto_final_233323
                     ck.Expires = tkt.Expiration;
                 ck.Path = FormsAuthentication.FormsCookiePath;
                 Response.Cookies.Add(ck);
+
                 string strRedirect;
                 strRedirect = Request["ReturnUrl"];
                 if (strRedirect == null)
