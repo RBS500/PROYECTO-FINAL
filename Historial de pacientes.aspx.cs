@@ -13,5 +13,15 @@ namespace proyecto_final_233323
         {
 
         }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CheckBoxList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
