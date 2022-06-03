@@ -11,7 +11,8 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Login ID="Login1" runat="server" Height="355px" OnAuthenticate="Login1_Authenticate" Width="612px">
+        <asp:Login ID="Login1" runat="server" BackColor="#F7F7DE" BorderColor="#CCCC99" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="10pt" Height="502px" OnAuthenticate="Login1_Authenticate" Width="906px">
+            <TitleTextStyle BackColor="#6B696B" Font-Bold="True" ForeColor="#FFFFFF" />
         </asp:Login>
     </form>
 </body>
