@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,20 +22,50 @@ namespace proyecto_final_233323
             writer.WriteLine(texto);
             writer.Close();
         }
-
+        private void Leer()
+        {
+            List<HIstorialPaciente> lista = new List<HIstorialPaciente>();
+            string archivo = Server.MapPath("json.json");
+            StreamReader jsonStream = File.OpenText(archivo);
+            string json = jsonStream.ReadToEnd();
+            jsonStream.Close();
+            lista = JsonConvert.DeserializeObject<List<HIstorialPaciente>>(json);
+        }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt",TextID.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox2.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox4.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox5.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox6.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox7.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox8.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox10.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox11.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox12.Text);
-            Guardar(@"C:\Users\josue\source\repos\PROYECTO-FINAL\Historial P.txt", TextBox13.Text);
+            HIstorialPaciente Historialpa = new HIstorialPaciente();
+            Historialpa.IDConsult = TextId.Text;
+            Historialpa.NitPaciente = TextNIt.Text;
+            Historialpa.Fecha = Textfecha.Text;
+            Historialpa.Hora = Texthora.Text;
+            Historialpa.grados = Texttem.Text;
+            Historialpa.presion = Textar.Text;
+            Historialpa.sintomas = Diag.Text;
+            Historialpa.diagnodtico = Trat.Text;
+            Historialpa.Receta = Dosist.Text;
+            Historialpa.horaMedic = Medict.Text;
+            Historialpa.Proximavisita = proxvis.Text;
+            Historialpa.costoConsulta = Costcon.Text;
+            TextId.Text = "";
+            TextNIt.Text = "";
+            Textfecha.Text = "";
+            Texthora.Text = "";
+            Texttem.Text = "";
+            Textar.Text = "";
+            Diag.Text = "";
+            Trat.Text = "";
+            Dosist.Text = "";
+            Medict.Text = "";
+            proxvis.Text = "";
+            Costcon.Text = "";
+          
+            Leer();
+
+        }
+     
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

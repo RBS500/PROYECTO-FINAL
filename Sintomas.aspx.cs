@@ -13,5 +13,10 @@ namespace proyecto_final_233323
         {
 
         }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

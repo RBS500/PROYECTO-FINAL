@@ -11,7 +11,7 @@
         <asp:Label ID="Label2" runat="server" Text="Descripcion de La enfermedad"></asp:Label>
     </p>
     <p>
-        <asp:TextBox ID="TextBox2" runat="server" Height="108px" Width="545px"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" Height="108px" Width="545px" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
     </p>
     <p>
     </p>

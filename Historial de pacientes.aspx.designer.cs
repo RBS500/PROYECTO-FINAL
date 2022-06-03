@@ -24,13 +24,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control TextID.
+        /// Control TextId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextID;
+        protected global::System.Web.UI.WebControls.TextBox TextId;
 
         /// <summary>
         /// Control Label2.
@@ -42,13 +42,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control TextNIt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TextNIt;
 
         /// <summary>
         /// Control Label3.
@@ -69,13 +69,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label16;
 
         /// <summary>
-        /// Control TextBox13.
+        /// Control Textfecha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox13;
+        protected global::System.Web.UI.WebControls.TextBox Textfecha;
 
         /// <summary>
         /// Control Label17.
@@ -87,13 +87,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label17;
 
         /// <summary>
-        /// Control TextBox8.
+        /// Control Texthora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox Texthora;
 
         /// <summary>
         /// Control Label4.
@@ -105,13 +105,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control TextBox4.
+        /// Control Texttem.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox Texttem;
 
         /// <summary>
         /// Control Label5.
@@ -123,13 +123,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control TextBox5.
+        /// Control Textar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox Textar;
 
         /// <summary>
         /// Control Label6.
@@ -177,13 +177,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control TextBox6.
+        /// Control Diag.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox Diag;
 
         /// <summary>
         /// Control Label8.
@@ -195,13 +195,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Control TextBox7.
+        /// Control Trat.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox Trat;
 
         /// <summary>
         /// Control Label9.
@@ -267,13 +267,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control TextBox10.
+        /// Control Dosist.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.TextBox Dosist;
 
         /// <summary>
         /// Control Label12.
@@ -285,13 +285,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// Control TextBox11.
+        /// Control Medict.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.TextBox Medict;
 
         /// <summary>
         /// Control Label13.
@@ -303,13 +303,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
-        /// Control Calendar3.
+        /// Control proxvis.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar3;
+        protected global::System.Web.UI.WebControls.TextBox proxvis;
 
         /// <summary>
         /// Control Label14.
@@ -321,13 +321,13 @@ namespace proyecto_final_233323
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// Control TextBox12.
+        /// Control Costcon.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.TextBox Costcon;
 
         /// <summary>
         /// Control Label15.
@@ -346,5 +346,14 @@ namespace proyecto_final_233323
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Control GridView1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

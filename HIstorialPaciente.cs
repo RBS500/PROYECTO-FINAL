@@ -5,19 +5,21 @@ using System.Web;
 
 namespace proyecto_final_233323
 {
-    public class HIstorialPaciente
+    public class HIstorialPaciente : Sintomas
     {
-        public int IDConsult { get; set; }
-        public int NitPaciente { get; set; }
-        public int Fecha { get; set; }
-        public int grados   { get; set; }
-        public int presion { get; set; }
+        public string IDConsult { get; set; }
+        public string NitPaciente { get; set; }
+        public string Fecha { get; set; }
+        public string Hora { get; set; }
+        public string grados   { get; set; }
+        public string presion { get; set; }
         public string sintomas { get; set; }
         public string diagnodtico { get; set; }
         public string tratamiento { get; set; }
         public string Receta { get; set; }
+        public string horaMedic { get; set; }
         public string Proximavisita { get; set; }
-        public int costoConsulta { get; set; }
+        public string costoConsulta { get; set; }
         public int imagenes { get; set; }
 
      }
