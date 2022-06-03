@@ -7,7 +7,7 @@
     <asp:Label ID="Label1" runat="server" Text="ID de la Consulta realizada "></asp:Label>
 </p>
 <p>
-    <asp:TextBox ID="TextBox1" runat="server" Width="171px"></asp:TextBox>
+    <asp:TextBox ID="TextID" runat="server" Width="171px"></asp:TextBox>
 </p>
     <p>
         <asp:Label ID="Label2" runat="server" Text="NIT del Paciente"></asp:Label>
@@ -19,7 +19,13 @@
         <asp:Label ID="Label3" runat="server" Text="Fecha y Hora de Consulta"></asp:Label>
 </p>
     <p>
-        <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
+        <asp:Label ID="Label16" runat="server" Text="Fecha de la Consulta"></asp:Label>
+</p>
+    <p>
+        <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
+</p>
+    <p>
+        <asp:Label ID="Label17" runat="server" Text="Hora de la Consulta"></asp:Label>
 </p>
     <p>
         <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
@@ -42,9 +48,6 @@
             <asp:ListItem>Calentura</asp:ListItem>
         </asp:CheckBoxList>
 </p>
-    <asp:CheckBoxList ID="CheckBoxList2" runat="server" OnSelectedIndexChanged="CheckBoxList2_SelectedIndexChanged">
-        <asp:ListItem>Tos</asp:ListItem>
-    </asp:CheckBoxList>
     <asp:CheckBoxList ID="CheckBoxList3" runat="server">
         <asp:ListItem>Mareos</asp:ListItem>
     </asp:CheckBoxList>
@@ -67,10 +70,14 @@
     <asp:CheckBoxList ID="CheckBoxList5" runat="server">
         <asp:ListItem>Paracetamol</asp:ListItem>
     </asp:CheckBoxList>
-    <asp:CheckBoxList ID="CheckBoxList6" runat="server">
-        <asp:ListItem></asp:ListItem>
-    </asp:CheckBoxList>
     <asp:CheckBoxList ID="CheckBoxList8" runat="server">
+        <asp:ListItem>Pepto-bismol</asp:ListItem>
+    </asp:CheckBoxList>
+    <asp:CheckBoxList ID="CheckBoxList9" runat="server">
+        <asp:ListItem>Meclizina.</asp:ListItem>
+    </asp:CheckBoxList>
+    <asp:CheckBoxList ID="CheckBoxList10" runat="server">
+        <asp:ListItem>Antitusígenos</asp:ListItem>
     </asp:CheckBoxList>
     <br />
     <asp:Label ID="Label10" runat="server" Text="Dosis"></asp:Label>
@@ -90,4 +97,8 @@
     <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
     <br />
     <asp:Label ID="Label15" runat="server" Text="Imagenes"></asp:Label>
+    <br />
+    <br />
+    <br />
+    <asp:Button ID="Button1" runat="server" Height="45px" OnClick="Button1_Click" Text="Guardar" Width="171px" />
 </asp:Content>
