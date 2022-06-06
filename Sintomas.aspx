@@ -15,7 +15,6 @@
         .</p>
     <p>
         <asp:Button ID="Button2" runat="server" Height="55px" OnClick="Button2_Click" Text="Agregar" Width="152px" />
-        <asp:Button ID="Button3" runat="server" Height="55px" Text="Buscar " Width="152px" />
     </p>
     <p>
     </p>

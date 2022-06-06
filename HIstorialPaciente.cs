@@ -22,5 +22,9 @@ namespace proyecto_final_233323
         public string costoConsulta { get; set; }
         public int imagenes { get; set; }
 
-     }
+        internal void Add(HIstorialPaciente alb)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
