@@ -43,8 +43,8 @@ namespace proyecto_final_233323
         protected void Button2_Click(object sender, EventArgs e)
         {
             Sintomas sintoma = new Sintomas();
-            sintoma.codsintomas = TextEnfermedad.Text;
-            sintoma.Descripcion = TextBox2.Text;
+            sintoma.CSintoma = TextEnfermedad.Text;
+            sintoma.Sintoma = TextBox2.Text;
             SintomasTemp.Add(sintoma);
             GuardarJson();
             TextEnfermedad.Text = "";

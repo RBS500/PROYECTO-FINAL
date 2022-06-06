@@ -119,7 +119,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="json.json" />
+    <Content Include="HistorialMedico.json" />
+    <Content Include="Pacientess.json" />
+    <Content Include="Agenda.json" />
+    <Content Include="Medicamentos.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Historial de Pacientes.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -241,6 +244,7 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Sintomas.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

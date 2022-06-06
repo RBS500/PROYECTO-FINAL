@@ -7,8 +7,8 @@ namespace proyecto_final_233323
 {
     public class Sintomas
     {
-        public String codsintomas { get; set; }    
-        public string Descripcion { get; set; }
+        public string CSintoma { get; set; }
+        public string Sintoma { get; set; }
 
     }
 }

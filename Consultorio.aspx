@@ -11,7 +11,7 @@
         <asp:TextBox ID="TextBox1" runat="server" Height="24px" Width="229px"></asp:TextBox>
     </p>
     <p>
-        <asp:Button ID="Button1" runat="server" Height="40px" Text="Agregar Paciente" Width="327px" />
+        <asp:Button ID="Button1" runat="server" Height="40px" Text="Agregar Paciente" Width="327px" OnClick="Button1_Click" />
     </p>
     <p>
         <asp:Label ID="Label5" runat="server" Text="Nit del Paciente"></asp:Label>
@@ -52,6 +52,7 @@
         <asp:Label ID="Label14" runat="server" Text="Sintoma"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server" Height="24px" Width="272px">
         </asp:DropDownList>
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Agregar Sintoma" Width="196px" />
     </p>
     <p>
         <asp:Label ID="Label15" runat="server" Text="Diagnostico"></asp:Label>
@@ -65,6 +66,7 @@
         <asp:Label ID="Label17" runat="server" Text="Agregar Medicamento"></asp:Label>
         <asp:DropDownList ID="DropDownList2" runat="server" Height="16px" Width="276px">
         </asp:DropDownList>
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Agregar MEdicamento" Width="196px" />
     </p>
     <p>
         <asp:Label ID="Label18" runat="server" Text="Costo de la Consulta"></asp:Label>

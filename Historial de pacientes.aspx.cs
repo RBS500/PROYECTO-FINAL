@@ -43,9 +43,9 @@ namespace proyecto_final_233323
             foreach (var alb in histoira)
             {
 
-                if (alb.Nit == TextId.Text)
+                if (alb.NitPac == TextId.Text)
                 {
-                    Historialpa.Add(alb);
+                    Historialpa.add(alb);
                 }
             }
 

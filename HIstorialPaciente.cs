@@ -7,24 +7,18 @@ namespace proyecto_final_233323
 {
     public class HIstorialPaciente : Sintomas
     {
-        public string IDConsult { get; set; }
-        public string Nit { get; set; }
-        public string Fecha { get; set; }
-        public string Hora { get; set; }
-        public string grados   { get; set; }
-        public string presion { get; set; }
-        public string sintomas { get; set; }
-        public string diagnodtico { get; set; }
-        public string tratamiento { get; set; }
-        public string Receta { get; set; }
-        public string horaMedic { get; set; }
-        public string Proximavisita { get; set; }
-        public string costoConsulta { get; set; }
-        public int imagenes { get; set; }
+        public int IdConsulta { get; set; }
+        public string NitPac { get; set; }
+        public DateTime Fecha { get; set; }
+        public string HoraConsulta { get; set; }
+        public string Tempertatura { get; set; }
+        public string Presion { get; set; }
+        public List<string> Sintomas { get; set; }
+        public string Diagnostico { get; set; }
+        public string Tratamiento { get; set; }
+        public List<string> Receta { get; set; }
+        public int Costo { get; set; }
 
-        internal void Add(HIstorialPaciente alb)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
