@@ -16,6 +16,10 @@ namespace proyecto_final_233323
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (!IsPostBack)
+            {
+                Leer();
+            }
         }
         private void Guardar(string fileName, string texto)
         {
@@ -31,33 +35,24 @@ namespace proyecto_final_233323
             StreamReader jsonStream = File.OpenText(archivo);
             string json = jsonStream.ReadToEnd();
             jsonStream.Close();
-            lista = JsonConvert.DeserializeObject<List<HIstorialPaciente>>(json);
+            histoira = JsonConvert.DeserializeObject<List<HIstorialPaciente>>(json);
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
             HIstorialPaciente Historialpa = new HIstorialPaciente();
-            Historialpa.IDConsult = TextId.Text;
-            Historialpa.Fecha = Textfecha.Text;
-            Historialpa.Hora = Texthora.Text;
-            Historialpa.grados = Texttem.Text;
-            Historialpa.presion = Textar.Text;
-            Historialpa.sintomas = Diag.Text;
-            Historialpa.diagnodtico = Trat.Text;
-            Historialpa.Receta = Dosist.Text;
-            Historialpa.horaMedic = Medict.Text;
-            Historialpa.Proximavisita = proxvis.Text;
-            Historialpa.costoConsulta = Costcon.Text;
-            TextId.Text = "";
-            Textfecha.Text = "";
-            Texthora.Text = "";
-            Texttem.Text = "";
-            Textar.Text = "";
-            Diag.Text = "";
-            Trat.Text = "";
-            Dosist.Text = "";
-            Medict.Text = "";
-            proxvis.Text = "";
-            Costcon.Text = "";
+            foreach (var alb in histoira)
+            {
+
+                if (alb.Nit == TextId.Text)
+                {
+                    Historialpa.Add(alb);
+                }
+            }
+
+
+            GridView1.DataSource = Historialpa;
+            GridView1.DataBind();
+          
           
         }
      

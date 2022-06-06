@@ -5,7 +5,7 @@
         <asp:Label ID="Label1" runat="server" Text="Codigo de Enfermedad "></asp:Label>
     </p>
     <p>
-        <asp:TextBox ID="TextBox1" runat="server" Width="156px"></asp:TextBox>
+        <asp:TextBox ID="TextEnfermedad" runat="server" Width="213px"></asp:TextBox>
     </p>
     <p>
         <asp:Label ID="Label2" runat="server" Text="Descripcion de La enfermedad"></asp:Label>
