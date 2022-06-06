@@ -8,7 +8,7 @@ namespace proyecto_final_233323
     public class HIstorialPaciente : Sintomas
     {
         public string IDConsult { get; set; }
-        public string NitPaciente { get; set; }
+        public string Nit { get; set; }
         public string Fecha { get; set; }
         public string Hora { get; set; }
         public string grados   { get; set; }

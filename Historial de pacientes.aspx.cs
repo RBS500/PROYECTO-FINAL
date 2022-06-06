@@ -11,6 +11,8 @@ namespace proyecto_final_233323
 {
     public partial class Historial_de_Pacientes : System.Web.UI.Page
     {
+        static public List<HIstorialPaciente> histoira = new List<HIstorialPaciente>();
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -35,7 +37,6 @@ namespace proyecto_final_233323
         {
             HIstorialPaciente Historialpa = new HIstorialPaciente();
             Historialpa.IDConsult = TextId.Text;
-            Historialpa.NitPaciente = TextNIt.Text;
             Historialpa.Fecha = Textfecha.Text;
             Historialpa.Hora = Texthora.Text;
             Historialpa.grados = Texttem.Text;
@@ -47,7 +48,6 @@ namespace proyecto_final_233323
             Historialpa.Proximavisita = proxvis.Text;
             Historialpa.costoConsulta = Costcon.Text;
             TextId.Text = "";
-            TextNIt.Text = "";
             Textfecha.Text = "";
             Texthora.Text = "";
             Texttem.Text = "";
@@ -59,13 +59,9 @@ namespace proyecto_final_233323
             proxvis.Text = "";
             Costcon.Text = "";
           
-            Leer();
-
         }
      
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+       
+        
     }
 }

@@ -191,6 +191,7 @@
       <DependentUpon>Historial de Pacientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="HIstorialPaciente.cs" />
+    <Compile Include="Imagenes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sintomas.aspx.cs">
       <DependentUpon>Sintomas.aspx</DependentUpon>
